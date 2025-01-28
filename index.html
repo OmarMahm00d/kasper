@@ -245,7 +245,24 @@
       </section>
       <!-- ------------------------------------------------------------ -->
        <div id="intro-video">
-        <video src="assets/BEAUTIFUL Hen.mp4" loop autoplay muted></video>
+        <!-- 
+          background video best practices:
+            Keep Background Videos Short.
+            Reduce Motion and Speed
+            Optimize the Video File:
+              Keep Dimensions Standard HD
+              Keep The Frame Rate Low
+              Remove the Audio Channel
+            Optimize the Poster Image "if needed"
+            Serve Multiple Video Formats
+            Provide Contrast usually overlay
+        -->
+        <div class="video">
+          <video  loop autoplay muted poster="">
+            <source src="assets/beautiful-hen.mp4" type="video/mp4">
+            <source src="assets/beautiful-hen.webm" type="video/webm">
+          </video>
+        </div>
         <div class="content">
           <h3>Super Awesome Video Here</h3>
           <p>Its All You Need</p>
